@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@300;400;600;700;900&family=Inter:wght@300;400;500&family=Rajdhani:wght@400;500;600;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-display: "Exo 2", sans-serif;
+  --font-body: "Rajdhani", sans-serif;
+  --font-sans: "Inter", sans-serif;
+
+  --color-red: #d62828;
+  --color-red-dark: #a61f1f;
+  --color-dark-blue: #0a2d5e;
+  --color-blue: #1255b0;
+  --color-light-blue: #2a8df5;
+  --color-sky: #60b4ff;
+  --color-off-white: #f4f8ff;
+
+  --radius-xl: 18px;
+  --radius-sm: 10px;
+}
+
+@layer base {
+  body {
+    @apply font-sans bg-white text-slate-900;
+  }
+}
+
+@layer utilities {
+  .glass {
+    @apply bg-white/40 backdrop-blur-md border border-white/30;
+  }
+  .glass-dark {
+    @apply bg-slate-900/80 backdrop-blur-md border border-white/10;
+  }
+  .text-glow {
+    text-shadow: 0 0 10px rgba(96, 180, 255, 0.5);
+  }
+}
