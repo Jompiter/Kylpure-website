@@ -6,7 +6,7 @@ import { defineConfig, loadEnv } from 'vite';
 export default defineConfig(({ mode }) => {
   const env = loadEnv(mode, '.', '');
   return {
-    base: '/Kylpure-website/', // 👈 ADD THIS LINE
+    base: './',
 
     plugins: [react(), tailwindcss()],
     define: {
