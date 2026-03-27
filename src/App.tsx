@@ -257,7 +257,7 @@ export default function App() {
       </AnimatePresence>
       {/* Background Music */}
       <audio ref={audioRef} loop muted>
-        <source src="/audio/KYLEPURE_MUSIC_ADS.mp3" type="audio/mpeg" />
+        <source src="./audio/KYLEPURE_MUSIC_ADS.mp3" type="audio/mpeg" />
       </audio>
 
       {/* Navigation */}
@@ -344,7 +344,7 @@ export default function App() {
               <div className="relative">
                 <div className="aspect-[9/16] max-h-[600px] mx-auto rounded-3xl overflow-hidden border-2 border-light-blue/30 shadow-2xl shadow-light-blue/20">
                   <video 
-                    src="/videos/hero-water.mp4" 
+                    src="./videos/hero-water.mp4" 
                     autoPlay 
                     loop 
                     muted 
@@ -453,13 +453,13 @@ export default function App() {
             <Reveal delay={0.1}>
               <div className="space-y-4">
                 <div className="aspect-[3/4] rounded-2xl overflow-hidden shadow-lg relative group">
-                  <ClickableImage src="/images/owner.jpg" alt="File: images/owner.jpg | Size: 1080x1080px | Type: Photo | Desc: Owner" className="w-full h-full object-cover" />
+                  <ClickableImage src="./images/owner.jpg" alt="File: images/owner.jpg | Size: 1080x1080px | Type: Photo | Desc: Owner" className="w-full h-full object-cover" />
                   <div className="absolute bottom-3 left-3 bg-dark-blue/60 backdrop-blur-sm px-2 py-1 rounded text-[10px] text-white font-bold uppercase tracking-widest opacity-0 group-hover:opacity-100 transition-opacity">
                     Owner
                   </div>
                 </div>
                 <div className="aspect-square rounded-2xl overflow-hidden shadow-lg relative group">
-                  <ClickableImage src="/images/team.jpg" alt="File: images/team.jpg | Alt: Kylpure staff team working inside the purified water refilling facility in Tarlac City | Size: 1080x1080px | Type: Photo" className="w-full h-full object-cover" />
+                  <ClickableImage src="./images/team.jpg" alt="File: images/team.jpg | Alt: Kylpure staff team working inside the purified water refilling facility in Tarlac City | Size: 1080x1080px | Type: Photo" className="w-full h-full object-cover" />
                   <div className="absolute bottom-3 left-3 bg-dark-blue/60 backdrop-blur-sm px-2 py-1 rounded text-[10px] text-white font-bold uppercase tracking-widest opacity-0 group-hover:opacity-100 transition-opacity">
                     Team
                   </div>
@@ -469,13 +469,13 @@ export default function App() {
             <Reveal delay={0.3}>
               <div className="space-y-4 pt-8">
                 <div className="aspect-square rounded-2xl overflow-hidden shadow-lg relative group">
-                  <ClickableImage src="/images/work.jpg" alt="File: images/work.jpg | Size: 1080x1080px | Type: Photo | Desc: Work" className="w-full h-full object-cover" />
+                  <ClickableImage src="./images/work.jpg" alt="File: images/work.jpg | Size: 1080x1080px | Type: Photo | Desc: Work" className="w-full h-full object-cover" />
                   <div className="absolute bottom-3 left-3 bg-dark-blue/60 backdrop-blur-sm px-2 py-1 rounded text-[10px] text-white font-bold uppercase tracking-widest opacity-0 group-hover:opacity-100 transition-opacity">
                     Work
                   </div>
                 </div>
                 <div className="aspect-[3/4] rounded-2xl overflow-hidden shadow-lg relative group">
-                  <ClickableImage src="/images/store.jpg" alt="File: images/store.jpg | Size: 1080x1080px | Type: Photo | Desc: Station" className="w-full h-full object-cover" />
+                  <ClickableImage src="./images/store.jpg" alt="File: images/store.jpg | Size: 1080x1080px | Type: Photo | Desc: Station" className="w-full h-full object-cover" />
                   <div className="absolute bottom-3 left-3 bg-dark-blue/60 backdrop-blur-sm px-2 py-1 rounded text-[10px] text-white font-bold uppercase tracking-widest opacity-0 group-hover:opacity-100 transition-opacity">
                     Station
                   </div>
